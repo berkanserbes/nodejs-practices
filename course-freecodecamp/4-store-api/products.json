@@ -1,0 +1,90 @@
+[
+    {
+      "name": "accent chair",
+      "price": 25,
+      "company": "Amazon",
+      "rating": 4
+    },
+    {
+      "name": "albany sectional",
+      "price": 109,
+      "company": "Amazon",
+      "rating": 5
+    },
+    {
+      "name": "albany table",
+      "price": 309,
+      "company": "Amazon",
+      "rating": 4.9
+    },
+    {
+      "name": "armchair",
+      "price": 125,
+      "company": "Amazon",
+      "rating": 4.8
+    },
+    {
+      "name": "bar stool",
+      "price": 40,
+      "company": "Amazon",
+      "rating": 4.6
+    },
+    {
+      "name": "dining table",
+      "price": 42,
+      "company": "Trendyol",
+      "rating": 4.55
+    },
+    {
+      "name": "emperor bed",
+      "price": 23,
+      "company": "Trendyol",
+      "rating": 3.2
+    },
+    {
+      "name": "entertainment center",
+      "price": 59,
+      "featured": true,
+      "rating": 4.2,
+      "company": "Trendyol"
+    },
+    {
+      "name": "high-back bench",
+      "price": 39,
+      "featured": true,
+      "rating": 1.1,
+      "company": "Trendyol"
+    },
+  
+    {
+      "name": "leather sofa",
+      "price": 99,
+      "rating": 4.0,
+      "company": "Trendyol"
+    },
+    {
+      "name": "modern bookshelf",
+      "price": 31,
+      "featured": true,
+      "rating": 4.0,
+      "company": "Trendyol"
+    },
+    {
+      "name": "modern poster",
+      "price": 30,
+      "rating": 1.0,
+      "company": "Trendyol"
+    },
+    {
+      "name": "shelf",
+      "price": 30,
+      "rating": 0.4,
+      "company": "Trendyol"
+    },
+    {
+      "name": "simple chair",
+      "price": 109,
+      "rating": 5.0,
+      "company": "Trendyol"
+    }
+]
