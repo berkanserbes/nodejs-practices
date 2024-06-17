@@ -9,7 +9,13 @@ const getAllJobs = async (req, res) => {
   }
 };
 
-const getJob = async (req, res) => {};
+const getJob = async (req, res) => {
+  try {
+    const { id } = req.params;
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+};
 
 const createJob = async (req, res) => {};
 
