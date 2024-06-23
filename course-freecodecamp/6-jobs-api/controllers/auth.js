@@ -21,7 +21,7 @@ const login = async (req, res) => {
 
     const user = await User.findOne({ email });
     if (!user) {
-      throw new UnauthenticatedError("Invalid credentials");
+      throw new UnauthenticatedError("This account does not exist");
     }
 
     const isPasswordCorrect = await user.comparePassword(password);
@@ -32,7 +32,9 @@ const login = async (req, res) => {
 
     const token = user.createJWT();
     res.status(StatusCodes.OK).json({ user: { name: user.name }, token });
-  } catch (err) {}
+  } catch (err) {
+    throw new BadRequest(err.message);
+  }
 };
 
 module.exports = { register, login };
